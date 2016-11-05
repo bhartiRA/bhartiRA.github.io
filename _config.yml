@@ -1,0 +1,21 @@
+# Site settings
+title: Ruby Project
+header-img: img/home-bg.png
+email: bharti0717@yahoo.com
+copyright_name: bhartiRA
+description: > # this means to ignore newlines until "baseurl:"
+  CLI
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  bhartiRA
+learn_profile: bhartiRA
+email_username: bharti0717@yahoo.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
